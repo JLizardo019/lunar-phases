@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-color: black;
+    color: white;
+}
+
+h1, p{
+    font-family: Roboto;
+}
+
+h1{
+    font-size: 2em;
+    text-decoration: underline;
+    text-align: center;
+}
+
+figure > img{
+    display:block;
+    margin: auto;
+}
+
+article>p{
+    width:80%;
+    margin: auto;
+}
+
+#sun{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: -1;
+}
+
+@media (min-width:950px) {
+
+    body{
+        font-size: 19px;
+    }
+    #container{
+        width: 80%;
+        display:flex;
+        margin: auto;
+        /* flex-direction: column; */
+    }
+}
